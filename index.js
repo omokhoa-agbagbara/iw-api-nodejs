@@ -14,7 +14,7 @@ let meals = [
 ]
 
 
-const HTTP_PORT = 8000
+const HTTP_PORT = 8080
 app.listen(HTTP_PORT, () => {
     console.log("Server is listening on port " + HTTP_PORT);
 });
